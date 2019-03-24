@@ -1,0 +1,76 @@
+Last login: Fri Jan 25 17:07:45 on ttys000
+wireless-169-228-80-65:~ nakhul$ ssh ee15whe@ieng6.ucsd.edu
+Password: 
+Last login: Fri Jan 25 17:08:09 2019 from 137.110.72.77
+============================ NOTICE =================================
+Authorized use of this system is limited to password-authenticated
+usernames which are issued to individuals and are for the sole use of
+the person to whom they are issued.
+
+Privacy notice: be aware that computer files, electronic mail and 
+accounts are not private in an absolute sense.  For a statement of
+"ETS (formerly ACMS) Acceptable Use Policies" please see our webpage
+at http://acms.ucsd.edu/info/aup.html.
+
+=====================================================================
+
+  
+
+Disk quotas for user ee15whe (uid 7388): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+acsnfs4.ucsd.edu:/vol/home/linux/ieng6
+                  11284  704800  704800             428    9000    9000        
+
+------------------------------------------------------	
+        
+Account check:  http://acms.ucsd.edu-> Account Lookup
+
+* Remotix download/installation: tritoned.ucsd.edu
+* How to access campus licensed software:
+        http://blink.ucsd.edu/faculty/instruction/tritoned/students.html#Download-Course-Software
+
+/*---------------------
+        Available remote ieng6-XXX hosts to connect:
+
+        * ieng6-240, ieng6-241, ieng6-242, ieng6-243, ieng6-244, ieng6-245
+        * ieng6-246, ieng6-247, ieng6-248, ieng6-249, ieng6-640, ieng6-700
+        * ieng6-701, ieng6-702
+
+*ECE* students, please check with your TA or instructor on which hosts 
+you can run your projects.
+
+--------------------------*/
+ 
+Tue Jan 29, 2019 12:55pm - Prepping ee15w
+[ee15whe@ieng6-202]:~:344$ tar xvf $STARTERCODE/PA3starter.tar
+PA3/
+PA3/Makefile
+PA3/got.c
+[ee15whe@ieng6-202]:~:345$ cd PA3
+[ee15whe@ieng6-202]:PA3:346$ ls
+Makefile  got.c
+[ee15whe@ieng6-202]:PA3:347$ emacs got.c
+
+File Edit Options Buffers Tools C Help                                                                                            
+}
+
+
+// Main program                                                                                                                   
+// Call 'play_against_each_other' to run a competition and display the results                                                    
+int main() {
+
+    // Seed the random number generator                                                                                           
+    srand(time(NULL));
+
+
+    // TODO: Write your code here                                                                                                 
+    // ...                                                                                                                        
+
+
+
+    return 0;
+
+}
+
+
+
